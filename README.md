@@ -1,5 +1,5 @@
 # Python Optical Mark Recognition
-Ever wanted to find checkboxes in a document? Of course you have. You're in luck!
+Ever wanted to find checkboxes in a document? Of course you have.
 
 ## Usage
 `python check_finder.py <file_name> <check_type> <percentage_for_filled>`
