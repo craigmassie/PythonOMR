@@ -16,4 +16,4 @@ The percentage required of non white pixels for the check to be considered `fill
 ## Example
 `python check_finder.py ./test_images/manyboxes.png filled 25%`  
 
-[![Screenshot-2019-02-25-at-11-01-56.png](https://i.postimg.cc/wjsv4dck/Screenshot-2019-02-25-at-11-01-56.png)](https://postimg.cc/fVDDkpP3)
+[![edited.png](https://i.postimg.cc/SKBHSNd1/edited.png)](https://postimg.cc/bGRmLPK1)
