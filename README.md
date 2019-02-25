@@ -1,4 +1,4 @@
-# python_omr
+# Python Optical Mark Recognition
 Ever wanted to find checkboxes in a document? Of course you have. You're in luck!
 
 ## Usage
