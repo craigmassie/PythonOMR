@@ -25,6 +25,9 @@ def im_threshold(img):
 
 
 def check_find(img, threshhold, mark_thresh, check_type):
+    '''
+    Returns an image labelled with all relevant checks.
+    '''
     contours, _ = cv2.findContours(
         threshold, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
     font = cv2.FONT_HERSHEY_TRIPLEX
@@ -59,7 +62,7 @@ def check_find(img, threshhold, mark_thresh, check_type):
         if len(approx) > 15:
             # TODO: Do something here if looking for radio buttons.
             continue
-    return(img if img else None)
+    return(img)
 
 
 if __name__ == "__main__":
